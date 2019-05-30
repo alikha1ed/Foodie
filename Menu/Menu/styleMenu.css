@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto";
+}
+.container
+{
+    background-image: url(../../img/foodPattern.jpg);
+}
+.nav
+{
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    position: fixed;
+    background : rgba(0,0,0,0.3);
+    width: 100%;
+}
+.nav a
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #EF4135;
+    text-decoration: none;
+    padding: 18px 20px 20px ;
+}
+.menu
+{
+    border-top: 3px solid #EF4135; 
+}
+.nav a:hover
+{
+    border-top: 3px solid #EF4135; 
+}
+.img
+{
+    background-image: url(../../img/burger2.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 490px;
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.overlay img
+{
+    width: 45%;
+    margin-top: 7%;
+    margin-left: 30%;
+    
+}
+.lc{
+     background-color: #215A9E;
+    width: auto;
+    height: 615px;
+    color: white;
+}
+.feed input{
+    width: 500px;
+        height: 25px;
+        margin: 10px;
+    
+}
+.top p{
+    letter-spacing: 4px; 
+    font-size: 35px;
+}
+.top{
+    text-align: center;
+    padding: 60px
+}
+.feed{
+    text-align: center;
+    width: 50%;
+    height:400px;
+    float: left;
+    overflow: hidden;
+}
+textarea{
+   width: 500px;
+    height: 100px;
+    margin: 10px;
+}
+input{
+    
+       
+        margin: 10px;
+}
+.map{
+    float: right;
+    text-align: center;
+     width: 50%;
+    height:400px;
+    overflow: hidden;
+}
+.feed p{
+   font-weight: bold;
+    padding-bottom: 30px;
+}
+button
+{
+    padding: 10px;
+    margin-top: 5px;
+    color: #215A9E;
+    font-weight: bold;
+}
+.map p
+{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.bigburger{
+    width: auto;
+    height: 970px;
+    margin: 40px 40px;
+}
+
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11,.b12,.b13,.b14,.b15,.b16{
+    width:  20%;
+    height: 216px;
+    display: inline-block;
+    color: crimson;
+    margin: 10px 25px;
+    border: inset black;
+}
+.bb1 p,.bb2 p,.bb3 p,.bb4 p,.bb5 p,.bb6 p,.bb7 p,.bb8 p,.bb9 p,.bb10 p,.bb11 p,.bb12 p,.bb13 p,.bb14 p,.bb15 p,.bb16 p{
+    visibility:hidden;
+    
+}
+.bb1:hover p,.bb2:hover p,.bb3:hover p,.bb4:hover p,.bb5:hover p,.bb6:hover p,.bb7:hover p,.bb8:hover p,.bb9:hover p,.bb10:hover p,.bb11:hover p,.bb12:hover p,.bb13:hover p,.bb14:hover p,.bb15:hover p,.bb16:hover p{
+    visibility:visible;
+    
+}
+.b1{
+  background-image: url(../b7.jpg);  
+    background-size: cover;
+}
+.b2{
+   background-image: url(../b8.jpg); 
+    background-size: cover;
+}
+.b3{
+  background-image: url(../b11.jpg);  
+     background-size: cover;
+}
+.b4{
+   background-image: url(../b10.jpg); 
+     background-size: cover;
+}
+.b5{
+  background-image: url(../b12.png);  
+     background-size: cover;
+}
+.b6{
+   background-image: url(../b13.jpg); 
+     background-size: cover;
+}
+.b7{
+   background-image: url(../b15.jpg); 
+     background-size: cover;
+}
+.b8{
+   background-image: url(../b16.jpg); 
+     background-size: cover;
+}
+.b9{
+    background-image: url(../b9.jpg);
+     background-size: cover;
+}
+.b10{
+    background-image: url(../b14.jpeg);
+     background-size: cover;
+}
+.b11{
+    background-image: url(../b17.jpg);
+     background-size: cover;
+}
+.b12{
+    background-image: url(../b18.jpg);
+     background-size: cover;
+}
+.b13{
+   background-image: url(../b19.jpg); 
+     background-size: cover;
+}
+.b14{
+    background-image: url(../b20.jpg);
+     background-size: cover;
+}
+.b15{
+    background-image: url(../b22.jpg);
+     background-size: cover;
+}
+.b16{
+    background-image: url(../b21.jpg);
+     background-size: cover;
+}
+.inside
+{
+    text-align: center;
+    height: 80px;
+    background-color: #215A9E;
+    margin: auto;
+    color: white;
+    font-size: 46px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.waffle{
+    width: auto;
+    height: 1035px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.w1,.w2,.w3,.w4,.w5,.w6,.w7,.w8,.w9,.w10,.w11,.w12,.w13,.w14,.w15,.w16{
+    width:  20%;
+    height: 216px;
+    display: inline-block;
+    color: crimson;
+    background-color: yellowgreen;
+    margin: 10px 25px;
+    border: inset black;
+}
+.ww1 p,.ww2 p,.ww3 p,.ww4 p,.ww5 p,.ww6 p,.ww7 p,.ww8 p,.ww9 p,.ww10 p,.ww11 p,.ww12 p,.ww13 p,.ww14 p,.ww15 p,.ww16 p{
+    visibility:hidden;
+    
+}
+.ww1:hover p,.ww2:hover p,.ww3:hover p,.ww4:hover p,.ww5:hover p,.ww6:hover p,.ww7:hover p,.ww8:hover p,.ww9:hover p,.ww10:hover p,.ww11:hover p,.ww12:hover p,.ww13:hover p,.ww14:hover p,.ww15:hover p,.ww16:hover p{
+    visibility:visible;
+    
+}
+.w1{
+   background-image: url(../w1.jpg);
+    background-size: cover;
+}
+.w2{
+    background-image: url(../w2.png);
+    background-size: cover;
+}
+.w3{
+    background-image: url(../w3.jpeg);
+    background-size: cover;
+}
+.w4{
+    background-image: url(../w4.jpg);
+    background-size: cover;
+}
+.w5{
+    background-image: url(../c1.jpg);
+    background-size: cover;
+}
+.w6{
+    background-image: url(../c2.jpg);
+    background-size: cover;
+}
+.w7{
+    background-image: url(../c3.jpg);
+    background-size: cover;
+}
+.w8{
+    background-image: url(../c4.jpg);
+    background-size: cover;
+}
+.w9{
+    background-image: url(../c5.jpg);
+    background-size: cover;
+}
+.w10{
+    background-image: url(../c6.jpg);
+    background-size: cover;
+}
+.w11{
+    background-image: url(../c8.png);
+    background-size: cover;
+}
+.w12{
+    background-image: url(../c9.jpg);
+    background-size: cover;
+}
+.w13{
+    background-image: url(../c10.jpg);
+    background-size: cover;
+}
+.w14{
+    background-image: url(../c11.jpg);
+    background-size: cover;
+}
+.w15{
+    background-image: url(../c12.jpg);
+    background-size: cover;
+}
+.w16{
+    background-image: url(../c14.jpg);
+    background-size: cover;
+}
+.nameb{
+   text-align: center;
+    background: black;
+    
+}
+.price{
+    
+    background: black;
+    margin-top: 180px;
+    text-align: center;
+    width:100%;
+    border: 1px solid black;
+    
+}
+#up
+{
+    position: relative;
+    right: 342px;
+}
+.zoom{
+    animation: zoom 2s ease
+}
+@keyframes zoom
+{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+

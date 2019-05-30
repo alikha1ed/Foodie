@@ -1,0 +1,299 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto";
+}
+.container
+{
+    background-image: url(../img/foodPattern.jpg);
+}
+.nav
+{
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    position: fixed;
+    background : rgba(0,0,0,0.3);
+    width: 100%;
+}
+.nav a
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #EF4135;
+    text-decoration: none;
+    padding: 18px 20px 20px ;
+}
+	.home
+	{
+	    border-top: 4px solid #EF4135;
+	}
+	.nav a:hover
+	{
+	    border-top: 3px solid #EF4135; 
+	}
+.img
+{
+    background-image:url(../img/about.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 490px;
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.overlay img
+{
+    width: 45%;
+    margin-top: 7%;
+    margin-left: 30%;
+    
+}
+	.foodieStory {
+
+		width: 100%;
+		height: 350px;
+		padding-top: 80px;
+		text-align: center;
+	}
+	.foodieStory h1 {
+
+			color: rgb(253, 182, 50);
+		font-size: 48px;
+	}
+	.foodieStory h2 {
+
+		margin-top: 40px;
+		margin-bottom: 25px;
+		font-weight: bolder;
+		font-size: 30px;
+	}
+	.foodieStory p {
+
+		line-height: 1.6em;
+		font-size: 18px;
+	}
+	.foodieStory h2, p {
+
+		color: white;
+	}
+	.aboutUs {
+		width: 100%;
+	    text-align: center;
+	    height: 80px;
+	    background-color: #215A9E;
+	    padding-top: 40px;
+
+	}
+	.aboutUs h1 {
+
+	    color: white;
+	    font-size: 46px;
+	    
+	}
+
+	.discover {
+		width: 100%;
+		height: 400px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+
+	}
+	.disChild {
+
+		width: 40%;
+		float: left;
+		margin:40px;
+		}
+	.disChild img  {
+
+		margin-top: 20px;
+		border: 4px solid rgb(128, 22, 56);
+		margin-left: 15%;
+
+	}
+	.disChild h1 {
+
+		margin-top: 40px;
+		margin-bottom: 25px;
+		margin-left: 30%;
+		font-weight: bold;
+		color: #444;
+
+	}
+	.disChild p {
+
+		font-size: 16px;
+		color: #555;
+		margin-left: 30%;
+	}
+
+	.what  {
+
+		height: 1100px;
+		width: 100%;
+		/*float: left;*/
+		text-align: center;
+
+
+	}
+	.whatChild {
+
+		width: 50%;
+		float: left;
+		margin-bottom: 50px;
+		height: 400px;
+	}
+	.whatChild img  {
+		margin-top: 70px;
+		width: 65%;
+		border: 4px solid rgb(128, 22, 56);
+
+	}
+	.whatChild h1 {
+
+		font-weight: bold;
+		color: #801638;
+		font-size: 40px;
+		margin-top: 10%;
+		margin-left: 30%;
+		margin-bottom: 5%;
+		margin-right: 5%;
+	}
+	.whatChild h3 {
+
+		line-height: 2em;
+		color: #f15f74;
+		margin-left: 30%;
+		font-size: 16px;
+	}
+	.flavour h1 {
+
+		text-align: center;
+		color: #801638;
+		font-size: 36px;
+		font-weight: bold;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.whatFlavours {
+		width: 100%;
+		height: 400px;
+	}
+	.son {
+
+		width: 20%;
+		height: 400px;
+		float: left;
+		text-align: center;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		margin-bottom: 30px;
+
+	}
+	.son img {
+
+		width: 100%;
+		margin-bottom: 20px;
+
+	}
+	.son h2 {
+
+		font-size: 25px;
+		color: #f15f74;
+	}
+	.what a {
+
+		text-decoration: none;
+		color: rgb(253, 182, 50);
+		background-color: rgb(128, 22, 56);
+	 	font-size: 25px;
+		padding: 15px 5%;
+	 	border-radius: 45px;
+
+	}
+	.what a:hover {
+		
+		background-color: rgb(253, 182, 50);
+		color: rgb(128, 22, 56);
+
+	}
+	.what a:active {
+
+		color: white;
+		background-color: black;
+
+	}
+.lc
+{
+    background-color: #215A9E;
+    height: 600px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.top
+{
+    padding: 60px;
+}
+.top p
+{
+    font-size: 35px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.feed
+{
+    float: left;
+    width: 50%;
+}
+.feed p
+{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.feed input
+{
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+}
+textarea
+{
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+}
+.map p
+{
+    font-weight: bold;
+}
+button
+{
+    padding: 10px;
+    margin-top: 5px;
+    color: #215A9E;
+    font-weight: bold;
+}
+iframe
+{
+    margin-top: 20px;
+    width: 525px;
+    height: 300px;
+}
+
+.zoom{
+    animation: zoom 2s ease
+}
+@keyframes zoom
+{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}

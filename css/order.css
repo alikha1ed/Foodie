@@ -1,0 +1,236 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto";
+}
+.container
+{
+    text-align: center;
+}
+.nav
+{
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+    position: fixed;
+    
+    background : rgba(0,0,0,0.3);
+    width: 100%;
+    
+}
+.nav a
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #EF4135;
+    text-decoration: none;
+    padding: 18px 20px 20px ;
+}
+.order
+{
+    border-top: 4px solid #EF4135;
+}
+.nav a:hover
+{
+    border-top: 3px solid #EF4135; 
+}
+.name
+{
+    padding-top: 5px;
+    float:left; 
+}
+.img
+{
+    
+    background-image: url("../img/workwithusback.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 490px;
+    
+}
+.overlay
+{
+    background: rgba(0,0,0,0.3);
+    height: 100%;
+    text-align: center;
+}
+.overlay img
+{
+    width: 45%;
+    margin-top: 80px;
+}
+.inside
+{
+    text-align: center;
+    height: 80px;
+    background-color: #215A9E;
+    margin: auto;
+    color: white;
+    font-size: 46px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.categories
+{
+    overflow: hidden;
+    text-align: center;
+}
+
+
+input
+{
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #215A9E;
+}
+.textboxes
+{
+    margin-top: 5%;
+}
+
+.part
+{
+    width: 40%;
+    margin:47px 63px 47px 68px;
+    text-align: center;
+    height: 650px;
+    background: #ddd;
+    float: left;
+    
+}
+
+.part img
+{
+    width: 80%;
+    height: 340px;
+    border-radius: 10px;
+  
+    margin: 18px 0;
+}
+
+.imgdst
+{
+    height: 363px;
+}
+.part h1
+{
+    
+    background-color: #215A9E;
+    padding: 3%;
+    
+    margin: auto;
+    text-transform: capitalize;
+    color: #ddd;
+}
+select
+{
+    margin: 10px auto;
+    padding: 5px;
+    display: inline;
+    background-color: #215A9E;
+    width: 75%;
+    color: white;
+    text-transform: capitalize;
+}
+
+.number
+{
+    width: 15%;
+    float: right;
+    display: inline;
+    margin-left: 2%;
+    margin-right: 10px;
+}
+.submit
+{
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius: 20%;
+    margin-left: 50px;
+    margin-left: 622px;
+    margin-bottom: 20px;
+    
+}
+.submit:hover
+{
+    background-color: #FFB3F7;
+}
+.lc
+{
+    background-color: #215A9E;
+    width: auto;
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+.top
+{
+    padding: 60px;
+}
+.top p
+{
+    font-size: 35px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.feed
+{
+    float: left;
+    width: 50%;
+}
+.feed p
+{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.feed input
+{
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+    display: inline;
+}
+textarea
+{
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+}
+.map p
+{
+    font-weight: bold;
+}
+button
+{
+    padding: 10px;
+    margin-top: 5px;
+    color: #215A9E;
+    font-weight: bold;
+}
+iframe
+{
+    margin-top: 20px;
+    width: 525px;
+    height: 300px;
+}
+.clear
+{
+    clear: both;
+}
+.zoom{
+    animation: zoom 2s ease
+}
+@keyframes zoom
+{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}

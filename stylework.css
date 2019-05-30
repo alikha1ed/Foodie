@@ -1,0 +1,152 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:cornflowerblue; 
+}
+.container
+{
+    text-align: center;
+    margin-top:75px;
+    background-image: url("img/What-types-of-jobs-and-employers-are-there-in-IT.jpg");
+
+}
+.nav
+{
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    position:fixed;
+    top: 0px;
+    background : rgba(0,0,0,0.3);
+    width: 100%;
+}
+.nav a
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #EF4135;
+    text-decoration: none;
+    padding: 18px 20px 20px ;
+}
+.home
+{
+    border-top: 4px solid #EF4135;
+}
+.nav a:hover
+{
+    border-top: 3px solid #EF4135; 
+}
+.add{
+    font-size: 36px;
+    font-style: italic;
+    font-family:sans-serif;
+    color: white;
+
+}
+ul{
+    background-color: cornflowerblue;
+    background-position:left;
+    background-size: 24%;
+    margin-bottom: -25px;
+    color: white;
+}
+li{
+    margin: 25px;
+    list-style-type: none;
+    font-size: 28px;
+    width: 55%;
+    margin-left: 28%;
+}
+label{
+    float: left;
+}
+input{
+    font-size: 15px;
+    padding: 10px 10px;
+    padding-left: 120px; 
+    text-align: center;
+    margin-right: 8px;
+    color:gray;
+}
+.p4{
+    margin-left: 84px;
+    text-align: left;
+}
+.p3{
+    margin-left: 67px;
+}
+.p2{
+    margin-left: 112px;
+}
+.p1{
+    margin-left: 88px;
+}
+select{
+    padding: 5px 5px;
+    padding-left: 110px; 
+    font-size: 22px;
+    margin: auto;
+    color:gray;
+}
+.send{
+    padding: 10px 20px;
+    margin-top: -10px;
+    font-size: 20;
+    font-style: italic;
+    border:radio;
+    margin-bottom: 20px;
+}
+.lc
+{
+    background-color: #215A9E;
+    width: auto;
+    min-height: 600px;
+    color: white;
+}
+.top
+{
+    padding: 60px;
+}
+.top p
+{
+    font-size: 35px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.feed
+{
+    float: left;
+    width: 50%;
+}
+.feed p
+{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.feed input
+{
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+}
+textarea
+{
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+}
+.map p
+{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+button
+{
+    padding: 10px;
+    margin-top: 5px;
+    color: #215A9E;
+    font-weight: bold;
+}

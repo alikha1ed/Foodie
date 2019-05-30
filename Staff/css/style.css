@@ -1,0 +1,158 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    text-align: center;
+}
+
+.img
+{
+    background-image: url("../img/staff1.png");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+
+.nav
+{
+    
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    background : rgba(0, 43, 114,0.9);
+    width: 100%;
+    
+}
+.nav a
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #EF4135;
+    text-decoration: none;
+    padding: 18px 20px 20px;
+}
+
+.staff
+{
+    border-width: 3px 0;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    height: 80px;
+    background-color: #215A9E;
+    margin: auto;
+    color: white;
+    font-size: 46px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+}
+
+.father
+{
+    width: 90%;
+    padding-bottom: 50px;
+    margin: auto;
+    overflow: hidden;
+}
+.son
+{
+    float: left;
+    margin: 70px;
+    text-align: center;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.s1
+{
+    background: #215A9E;
+    padding: 20px;
+}
+img
+{
+    width: 48%;
+    border-radius: 50% 25%;
+}
+.s2
+{
+    background: #EF4135;
+    font: normal bold 37px "Times New Roman";
+    color: white;
+}
+.s3
+{
+    padding: 35px;
+    text-align: left;
+    background: #DDD;
+    font-size: 25px;
+}
+.img2
+{
+    width: 50%;
+    border-radius: 50% 25%;
+}
+.clear_float
+{
+    clear:both;
+}
+.lc
+{
+    background-color: #215A9E;
+    width: auto;
+    min-height: 600px;
+    color: white;
+    
+}
+.top
+{
+    padding: 60px;
+}
+.top p
+{
+    font-size: 35px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.feed
+{
+    float: left;
+    width: 50%;
+}
+.feed p
+{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.feed input
+{
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+}
+textarea
+{
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+}
+.map p
+{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+button
+{
+    padding: 10px;
+    margin-top: 5px;
+    color: #215A9E;
+    font-weight: bold;
+}
